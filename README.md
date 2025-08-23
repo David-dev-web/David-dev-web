@@ -8,7 +8,7 @@ I'm an aspiring **Indie OS Developer** and tech enthusiast with a passion for bl
 
 I'm the creator of **DavidOS**, an Ubuntu-based operating system designed to bring the nostalgic look and feel of Windows 95 to a modern, stable Linux kernel.
 
-*   **💻 [Visit the DavidOS Website & Documentation](https://david-dev-web.github.io/davidos-docs/ )**
+*   **💻 [Visit the DavidOS Website & Documentation](https://david-dev-web.github.io/davidOS-docs/ )**
 *   **⬇️ [Download the Latest Release of DavidOS](https://github.com/David-dev-web/davidos-docs/releases/latest )**
 
 ---
