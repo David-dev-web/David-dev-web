@@ -26,7 +26,13 @@ I have hands-on experience with a wide range of technologies gained through buil
 
 ---
 
-📫 Feel free to explore my repositories. The best way to reach me is right here on GitHub!
+### 📊 My GitHub Stats
+
 
 ![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=David-dev-web&show_icons=true&theme=dark )
 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=David-dev-web&layout=compact&theme=dark )
+---
+
+📫 Feel free to explore my repositories. The best way to reach me is right here on GitHub
