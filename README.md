@@ -1,6 +1,7 @@
 # Hi, I'm David 👋
 
-![snake gif](https://github.com/David-dev-web/David-dev-web/blob/output/github-contribution-grid-snake.svg )
+![snake gif](https://raw.githubusercontent.com/David-dev-web/David-dev-web/output/github-contribution-grid-snake.svg )
+
 
 I'm an aspiring **Indie OS Developer** and tech enthusiast with a passion for blending modern technology with classic, retro aesthetics. I enjoy diving deep into systems, solving complex problems, and creating unique user experiences.
 
