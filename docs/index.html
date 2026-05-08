@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David | Developer & Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <button id="language-toggle" class="language-toggle" title="Toggle Language / Sprache wechseln">
+        <span id="lang-btn-text">EN</span>
+    </button>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">David<span style="color: #ff0000;">.</span></h1>
+            <h2 class="hero-subtitle" id="typewriter"></h2>
+        </div>
+        <a href="#meine-reise" class="scroll-indicator">
+            <span data-i18n="scroll_indicator">SCROLL</span>
+            <div class="line"></div>
+        </a>
+    </header>
+
+    <main class="container">
+
+        <section class="timeline-section" id="meine-reise">
+            <h3 class="section-title" data-i18n="timeline_title">Meine Reise</h3>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="timeline_item_1_title">Anfang 2025 - Die Grundlage</h4>
+                        <p data-i18n="timeline_item_1_desc">Intensive Beschäftigung mit Python, PC-Hardware und dem Aufbau eines eigenen Homelabs. Das Fundament für tiefes Systemverständnis wird gelegt.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="timeline_item_2_title">Mitte 2025 - Die Geburt von DavidOS</h4>
+                        <p data-i18n="timeline_item_2_desc">Die Vision wird Realität: Start des Projekts DavidOS, um ein modernes Linux mit dem Charme von Windows 95 zu erschaffen.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="timeline_item_3_title">Ende 2025 - Frontend-Entwicklung</h4>
+                        <p data-i18n="timeline_item_3_desc">Erweiterung der Skills in die moderne Webentwicklung. Es entstehen komplexe, animierte Landing-Pages, die Projekte professionell präsentieren.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="timeline_item_4_title">Zukunft - The Next Level</h4>
+                        <p data-i18n="timeline_item_4_desc">Fokus auf die Vertiefung der Kenntnisse in Python, System-Architektur und die Entwicklung weiterer einzigartiger Software-Projekte.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h3 class="section-title" data-i18n="projects_title">Ausgewählte Projekte</h3>
+            <div class="project-grid">
+                <a href="https://david-dev-web.github.io/davidOS-docs/" target="_blank" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://github.com/user-attachments/assets/fe091b80-b23a-48cf-bbc5-1905762bc6ab" alt="DavidOS Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-i18n="project_1_category">Betriebssystem</span>
+                        <h4 data-i18n="project_1_title">DavidOS</h4>
+                        <p data-i18n="project_1_desc">Ein Ubuntu-basiertes OS mit dem nostalgischen Look von Windows 95.</p>
+                    </div>
+                </a>
+                <a href="https://david-dev-web.github.io/DavidTube-Client/" target="_blank" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://raw.githubusercontent.com/David-dev-web/DavidTube-Client/main/docs/img/screenshot-gaming.png" alt="DavidTube Webseite Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category" data-i18n="project_2_category">Web-Frontend</span>
+                        <h4 data-i18n="project_2_title">DavidTube Landing Page</h4>
+                        <p data-i18n="project_2_desc">Eine moderne Webseite für einen Desktop-YouTube-Client.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <div class="quote-content">
+                <blockquote data-i18n="quote_text">
+                    "Manche suchen nach einer besseren Welt. Ich bin bereit, sie zu bauen – oder nach ihr zu suchen."
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h3 class="section-title" data-i18n="skills_title">Tools die ich nutze</h3>
+            <div class="skill-matrix">
+                <div class="skill-item" data-i18n="skill_1"><span>🐧</span> Linux</div>
+                <div class="skill-item" data-i18n="skill_2"><span>🐍</span> Python</div>
+                <div class="skill-item" data-i18n="skill_3"><span>🖳</span> Bash/Shell</div>
+                <div class="skill-item" data-i18n="skill_4"><span>🌐</span> HTML & CSS</div>
+                <div class="skill-item" data-i18n="skill_5"><span>✨</span> JavaScript</div>
+                <div class="skill-item" data-i18n="skill_6"><span>📦</span> ISO Building</div>
+                <div class="skill-item" data-i18n="skill_7"><span>💾</span> Virtualization</div>
+                <div class="skill-item" data-i18n="skill_8"><span>🐙</span> Git & GitHub</div>
+                <div class="skill-item" data-i18n="skill_9"><span>🎨</span> UI/UX Design</div>
+                <div class="skill-item" data-i18n="skill_10"><span>🎬</span> GSAP</div>
+            </div>
+        </section>
+        
+        <section class="github-stats-section">
+            <h3 class="section-title" data-i18n="stats_title">Live-Aktivität</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=David-dev-web&show_icons=true&theme=transparent&title_color=ffffff&text_color=777777&icon_color=ff0000&hide_border=true" alt="GitHub Stats" loading="lazy" />
+                </div>
+                <div class="stat-card">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=David-dev-web&theme=transparent&stroke=ff0000&background=00000000&ring=ffffff&fire=ff0000&currStreakNum=ffffff" alt="GitHub Streak" loading="lazy" />
+                </div>
+            </div>
+            <p class="stats-loading-hint" data-i18n="stats_hint">📊 Github Stats werden automatisch aktualisiert...</p>
+        </section>
+
+        <section class="contact-section">
+            <h3 class="section-title" data-i18n="contact_title">Let's Connect</h3>
+            <div class="contact-buttons">
+                <a href="https://github.com/David-dev-web" target="_blank" class="contact-button github" data-i18n="contact_github">GitHub</a>
+                <a href="https://soundcloud.com/davidklimke3" target="_blank" class="contact-button soundcloud" data-i18n="contact_soundcloud">SoundCloud</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-i18n="footer_text">&copy; 2026 David-dev-web. Built for the future.</p>
+    </footer>
+
+    <button id="scroll-to-top" class="scroll-to-top" data-i18n="scroll_to_top">↑</button>
+
+    <script>
+        // Translation System
+        let translations = {};
+        let currentLanguage = localStorage.getItem('language') || 'de';
+
+        async function loadTranslations() {
+            try {
+                const response = await fetch('translations.json');
+                translations = await response.json();
+                updateLanguage(currentLanguage);
+            } catch (error) {
+                console.error('Failed to load translations:', error);
+            }
+        }
+
+        function updateLanguage(lang) {
+            currentLanguage = lang;
+            localStorage.setItem('language', lang);
+            
+            // Update all elements with data-i18n attribute
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+            
+            // Update language button
+            const langBtn = document.getElementById('lang-btn-text');
+            if (langBtn) {
+                langBtn.textContent = translations[lang]['lang_toggle'];
+            }
+            
+            // Update html lang attribute
+            document.documentElement.lang = lang;
+        }
+
+        document.getElementById('language-toggle').addEventListener('click', () => {
+            const newLang = currentLanguage === 'de' ? 'en' : 'de';
+            updateLanguage(newLang);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTranslations();
+            
+            // Custom Cursor
+            const cursorDot = document.querySelector('.cursor-dot');
+            const cursorOutline = document.querySelector('.cursor-outline');
+            
+            window.addEventListener('mousemove', e => {
+                gsap.to(cursorDot, {duration: 0.1, x: e.clientX, y: e.clientY});
+                gsap.to(cursorOutline, {duration: 0.3, x: e.clientX, y: e.clientY});
+            });
+
+            // Typewriter Effect
+            const typewriterElement = document.getElementById('typewriter');
+            const phrases = [
+                translations['de']['hero_subtitle_1'],
+                translations['de']['hero_subtitle_2'],
+                translations['de']['hero_subtitle_3'],
+                translations['de']['hero_subtitle_4']
+            ];
+            let pIdx = 0, cIdx = 0, isDeleting = false;
+
+            function type() {
+                const current = phrases[pIdx];
+                typewriterElement.textContent = isDeleting ? current.substring(0, cIdx--) : current.substring(0, cIdx++);
+                
+                if (!isDeleting && cIdx === current.length + 1) {
+                    setTimeout(() => isDeleting = true, 2000);
+                } else if (isDeleting && cIdx === 0) {
+                    isDeleting = false;
+                    pIdx = (pIdx + 1) % phrases.length;
+                }
+                setTimeout(type, isDeleting ? 50 : 100);
+            }
+            
+            // Start typewriter after translations loaded
+            setTimeout(type, 100);
+
+            // GSAP Animations
+            gsap.registerPlugin(ScrollTrigger);
+            gsap.from(".timeline-item", {
+                scrollTrigger: { trigger: ".timeline", start: "top 80%" },
+                opacity: 0, x: -50, stagger: 0.2, duration: 0.8
+            });
+
+            // Scroll to Top Button
+            const btn = document.getElementById('scroll-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    btn.classList.add('visible');
+                } else {
+                    btn.classList.remove('visible');
+                }
+            });
+            
+            btn.addEventListener('click', () => {
+                gsap.to(window, {
+                    duration: 0.8,
+                    scrollTo: 0,
+                    ease: 'power3.inOut'
+                });
+            });
+
+            // GitHub Stats Image Error Handling
+            const statImages = document.querySelectorAll('.stat-card img');
+            statImages.forEach(img => {
+                img.addEventListener('error', () => {
+                    const card = img.closest('.stat-card');
+                    card.style.background = 'rgba(255, 0, 0, 0.05)';
+                    card.style.minHeight = '120px';
+                    card.style.display = 'flex';
+                    card.style.alignItems = 'center';
+                    card.style.justifyContent = 'center';
+                    card.innerHTML = '<div style="text-align: center; color: var(--text-secondary); font-family: Space Mono, monospace; font-size: 0.9rem;"><div style="font-size: 2rem; margin-bottom: 10px;">📊</div>GitHub Stats laden...</div>';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+  "de": {
+    "hero_title": "Developer & Creator.",
+    "hero_subtitle_1": "Developer & Creator.",
+    "hero_subtitle_2": "Linux Enthusiast.",
+    "hero_subtitle_3": "Python Tinkerer.",
+    "hero_subtitle_4": "UI Designer.",
+    "scroll_indicator": "SCROLL",
+    
+    "timeline_title": "Meine Reise",
+    "timeline_item_1_title": "Anfang 2025 - Die Grundlage",
+    "timeline_item_1_desc": "Intensive Beschäftigung mit Python, PC-Hardware und dem Aufbau eines eigenen Homelabs. Das Fundament für tiefes Systemverständnis wird gelegt.",
+    "timeline_item_2_title": "Mitte 2025 - Die Geburt von DavidOS",
+    "timeline_item_2_desc": "Die Vision wird Realität: Start des Projekts DavidOS, um ein modernes Linux mit dem Charme von Windows 95 zu erschaffen.",
+    "timeline_item_3_title": "Ende 2025 - Frontend-Entwicklung",
+    "timeline_item_3_desc": "Erweiterung der Skills in die moderne Webentwicklung. Es entstehen komplexe, animierte Landing-Pages, die Projekte professionell präsentieren.",
+    "timeline_item_4_title": "Zukunft - The Next Level",
+    "timeline_item_4_desc": "Fokus auf die Vertiefung der Kenntnisse in Python, System-Architektur und die Entwicklung weiterer einzigartiger Software-Projekte.",
+    
+    "projects_title": "Ausgewählte Projekte",
+    "project_1_category": "Betriebssystem",
+    "project_1_title": "DavidOS",
+    "project_1_desc": "Ein Ubuntu-basiertes OS mit dem nostalgischen Look von Windows 95.",
+    "project_2_category": "Web-Frontend",
+    "project_2_title": "DavidTube Landing Page",
+    "project_2_desc": "Eine moderne Webseite für einen Desktop-YouTube-Client.",
+    
+    "quote_text": "Manche suchen nach einer besseren Welt. Ich bin bereit, sie zu bauen – oder nach ihr zu suchen.",
+    
+    "skills_title": "Tools die ich nutze",
+    "skill_1": "🐧 Linux",
+    "skill_2": "🐍 Python",
+    "skill_3": "🖳 Bash/Shell",
+    "skill_4": "🌐 HTML & CSS",
+    "skill_5": "✨ JavaScript",
+    "skill_6": "📦 ISO Building",
+    "skill_7": "💾 Virtualization",
+    "skill_8": "🐙 Git & GitHub",
+    "skill_9": "🎨 UI/UX Design",
+    "skill_10": "🎬 GSAP",
+    
+    "stats_title": "Live-Aktivität",
+    "stats_hint": "📊 Github Stats werden automatisch aktualisiert...",
+    
+    "contact_title": "Let's Connect",
+    "contact_github": "GitHub",
+    "contact_soundcloud": "SoundCloud",
+    
+    "footer_text": "© 2026 David-dev-web. Built for the future.",
+    "scroll_to_top": "↑",
+    
+    "lang_toggle": "EN"
+  },
+  "en": {
+    "hero_title": "Developer & Creator.",
+    "hero_subtitle_1": "Developer & Creator.",
+    "hero_subtitle_2": "Linux Enthusiast.",
+    "hero_subtitle_3": "Python Tinkerer.",
+    "hero_subtitle_4": "UI Designer.",
+    "scroll_indicator": "SCROLL",
+    
+    "timeline_title": "My Journey",
+    "timeline_item_1_title": "Early 2025 - The Foundation",
+    "timeline_item_1_desc": "Intensive work with Python, PC hardware, and building my own homelab. Laying the groundwork for deep systems understanding.",
+    "timeline_item_2_title": "Mid 2025 - The Birth of DavidOS",
+    "timeline_item_2_desc": "The vision becomes reality: launching the DavidOS project to create a modern Linux with the charm of Windows 95.",
+    "timeline_item_3_title": "Late 2025 - Frontend Development",
+    "timeline_item_3_desc": "Expanding skills into modern web development. Creating complex, animated landing pages that present projects professionally.",
+    "timeline_item_4_title": "Future - The Next Level",
+    "timeline_item_4_desc": "Focus on deepening knowledge in Python, system architecture, and developing more unique software projects.",
+    
+    "projects_title": "Selected Projects",
+    "project_1_category": "Operating System",
+    "project_1_title": "DavidOS",
+    "project_1_desc": "An Ubuntu-based OS with the nostalgic look of Windows 95.",
+    "project_2_category": "Web Frontend",
+    "project_2_title": "DavidTube Landing Page",
+    "project_2_desc": "A modern website for a desktop YouTube client.",
+    
+    "quote_text": "Some seek a better world. I'm ready to build it – or search for it.",
+    
+    "skills_title": "Tools I Use",
+    "skill_1": "🐧 Linux",
+    "skill_2": "🐍 Python",
+    "skill_3": "🖳 Bash/Shell",
+    "skill_4": "🌐 HTML & CSS",
+    "skill_5": "✨ JavaScript",
+    "skill_6": "📦 ISO Building",
+    "skill_7": "💾 Virtualization",
+    "skill_8": "🐙 Git & GitHub",
+    "skill_9": "🎨 UI/UX Design",
+    "skill_10": "🎬 GSAP",
+    
+    "stats_title": "Live Activity",
+    "stats_hint": "📊 GitHub stats are automatically updated...",
+    
+    "contact_title": "Let's Connect",
+    "contact_github": "GitHub",
+    "contact_soundcloud": "SoundCloud",
+    
+    "footer_text": "© 2026 David-dev-web. Built for the future.",
+    "scroll_to_top": "↑",
+    
+    "lang_toggle": "DE"
+  }
+}
