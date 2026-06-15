@@ -103,7 +103,7 @@ I enjoy building tools that not only work perfectly but also look great.
 
 <p align="center">
   <a href="https://david-dev-web.github.io/klima/">
-    <img src="https://img.shields.io/badge/Website-FF8F00?style=for-the-badge&logo=firefox&logoColor=white"/>
+    <img src="https://img.shields.io/badge/klima-Website-FF8F00?style=for-the-badge&logo=firefox&logoColor=white"/>
   </a>
   <a href="https://github.com/David-dev-web/klima">
     <img src="https://img.shields.io/badge/Klima_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
