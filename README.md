@@ -99,7 +99,3 @@ I enjoy building tools that not only work perfectly but also look great.
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
   </a>
 </p>
-
-<p align="center">
-  <i>Building the future, one tap at a time ⚫🚀</i>
-</p>
