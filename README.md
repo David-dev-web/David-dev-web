@@ -26,19 +26,6 @@ I enjoy building tools that not only work perfectly but also look great.
 
 ---
 
-## 🛠️ Current Focus: Building in Progress 🏗️
-
-> ### **🟠 Klima - Weather App**
-> *Status: Public Beta / MVP Phase*
->
-> A minimalist, expressively designed weather app. Features a Material You "Nothing-style" interface, open-source data from Open-Meteo.
->
-> `[############--] 90% Complete`
->
-> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/MIT-License-green?style=flat-square"/> <img src="https://img.shields.io/badge/Live-Showcase-orange?style=flat-square"/>
-
----
-
 ## 🚀 Projects
 
 <p align="center">
