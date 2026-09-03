@@ -1,101 +1,54 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+David+%F0%9F%91%8B;Flutter+%26+Python+Developer+%F0%9F%92%BB;Nothing+OS+Enthusiast+%E2%9A%AB;Raspberry+Pi+Tinkerer+%F0%9F%8C%90" />
-</p>
+## Maintainer profile
+
+<p><code>david-dev-web@github:~$ whoami</code></p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=David-dev-web&label=Profile%20Views&color=0e75b6&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/David-dev-web?label=Followers&style=flat-square&color=blue" />
-  <img src="https://img.shields.io/github/stars/David-dev-web?label=Stars&style=flat-square&color=yellow" />
+  <img src="https://www.gitskins.com/api/section/hero?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4&style=terminal" alt="david-dev-web hero visual" />
 </p>
 
----
+**David** · Open-source maintainer
 
-## 👋 About Me
+## Why I build in public
 
-<img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+> Building useful things and learning in public.
 
-Hey! I'm David — a developer who loves the intersection of clean design and functional code. Currently deep-diving into **Flutter** and **Nothing OS** aesthetics.
+- 📍 Based in **Germany**
+- 🌐 [Website](https://david-dev-web.github.io/David-dev-web/)
+- 👥 **106** followers · **135** following
 
-I enjoy building tools that not only work perfectly but also look great.
+**Open to:** thoughtful collaboration and useful open source
 
-### Highlights
-- 📱 **Mobile Dev**: Crafting Nothing-style apps with Flutter  
-- 🐍 **Python**: Automating stuff and building small tools  
-- 🤖 **Hardware**: Playing around with Raspberry Pi & Linux  
-- 🎨 **Aesthetics**: Obsessed with "True Black" UIs and Dot-Matrix fonts  
+## Open-source toolbox
 
----
-
-## 🚀 Projects
+<p><code>david-dev-web@github:~$ toolbox --list</code></p>
 
 <p align="center">
-<table>
-<tr>
-
-<td align="center" width="25%">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzR6bmN6bnR6bnR6bnR6bnR6bnR6bnR6bnR6bnR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/9c5RVG183bu906Vcdt/giphy.gif" width="150" />
-  <br><br>
-  <b>🎬 DavidTube</b>
-  <br>
-  <i>Electron YT Client</i>
-  <br>
-  <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript"/>
-</td>
-
-<td align="center" width="25%">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="150" />
-  <br><br>
-  <b>🖥️ DavidOS</b>
-  <br>
-  <i>Retro Ubuntu Theme</i>
-  <br>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash"/>
-</td>
-
-<td align="center" width="25%">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzR6bmN6bnR6bnR6bnR6bnR6bnR6bnR6bnR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/upVOxPZcKnyDfOWYjX/giphy.gif" width="150" />
-  <br><br>
-  <b>🧹 CleanSweep</b>
-  <br>
-  <i>Python File Sorter</i>
-  <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
-</td>
-
-<td align="center" width="25%">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXYxMDRyNWRveG5sMnFqZjY1cHVhaGJicW1mYzNucm0wcGR5cjJ4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BmfHlDpPWJy899dy62/giphy.gif" width="150" />
-  <br><br>
-  <b>☁️ Klima</b>
-  <br>
-  <i>Vibecoded Weather</i>
-  <br>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter"/>
-</td>
-
-</tr>
-</table>
+  <img src="https://www.gitskins.com/api/section/stack?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4&style=terminal" alt="david-dev-web stack visual" />
 </p>
 
----
+## Repositories
 
-## 🛠️ Tech & Tools
+- [davidOS-docs](https://github.com/David-dev-web/davidOS-docs) — SCSS · 0 stars
+- [David-dev-web](https://github.com/David-dev-web/David-dev-web) — open source · 0 stars
+- [klima](https://github.com/David-dev-web/klima) — Dart · 2 stars
+- [flutter-course](https://github.com/David-dev-web/flutter-course) — JavaScript · 1 stars
+- [life-simulator](https://github.com/David-dev-web/life-simulator) — TypeScript · 1 stars
+- [Liquid-Glass-Webpage](https://github.com/David-dev-web/Liquid-Glass-Webpage) — CSS · 1 stars
+
+## Contribution activity
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,python,js,html,css,bash,git,github,linux,raspberrypi,vscode,androidstudio" />
+  <img src="https://www.gitskins.com/api/section/stats?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web stats visual" />
 </p>
 
----
+<p><code>394 contributions</code> · <code>0 day streak</code></p>
 
-## 🔗 Connect
+## Find me in the community
 
 <p align="center">
-  <a href="https://david-dev-web.github.io/klima/">
-    <img src="https://img.shields.io/badge/klima-Website-FF8F00?style=for-the-badge&logo=firefox&logoColor=white"/>
-  </a>
-  <a href="https://github.com/David-dev-web/klima">
-    <img src="https://img.shields.io/badge/Klima_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://soundcloud.com/davidklimke3">
-    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
-  </a>
+  <img src="https://www.gitskins.com/api/section/social?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web social visual" />
 </p>
+
+<a href="https://github.com/david-dev-web">GitHub</a> · <a href="https://david-dev-web.github.io/David-dev-web/">Website</a>
+
+<p align="center"><sub>David · Open-source profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
