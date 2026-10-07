@@ -1,49 +1,40 @@
-## Maintainer profile
+## Selected work
 
-<p><code>david-dev-web@github:~$ whoami</code></p>
+<div align="center">
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4&style=terminal" alt="david-dev-web hero visual" />
+  <img src="https://www.gitskins.com/api/section/hero?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web hero visual" />
 </p>
 
-**David** · Open-source maintainer
+<h1>David</h1>
+<p><b>Freelance developer or consultant</b></p>
 
-## Why I build in public
+</div>
+
+## The idea behind the work
 
 > Building useful things and learning in public.
 
 - 📍 Based in **Germany**
 - 🌐 [Website](https://david-dev-web.github.io/David-dev-web/)
-- 👥 **106** followers · **135** following
+- 👥 **107** followers · **134** following
 
-**Open to:** thoughtful collaboration and useful open source
+*Small, useful work over vague claims.*
 
-## Open-source toolbox
+## Case studies
 
-<p><code>david-dev-web@github:~$ toolbox --list</code></p>
+<table>
+<tr><td width="32%"><b><a href="https://github.com/David-dev-web/davidOS-docs">davidOS-docs</a></b></td><td>Documentation for DavidOS<br/><sub>SCSS · 0 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/David-dev-web/David-dev-web">David-dev-web</a></b></td><td>My Bio<br/><sub>open source · 0 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/David-dev-web/klima">klima</a></b></td><td>Minimalist Weather App built with Flutter &amp; AI<br/><sub>Dart · 2 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/David-dev-web/flutter-course">flutter-course</a></b></td><td>A selected project from this GitHub profile.<br/><sub>JavaScript · 1 stars</sub></td></tr>
+</table>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4&style=terminal" alt="david-dev-web stack visual" />
-</p>
+## Creative toolkit
 
-## Repositories
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) `CMake` `SCSS`
 
-- [davidOS-docs](https://github.com/David-dev-web/davidOS-docs) — SCSS · 0 stars
-- [David-dev-web](https://github.com/David-dev-web/David-dev-web) — open source · 0 stars
-- [klima](https://github.com/David-dev-web/klima) — Dart · 2 stars
-- [flutter-course](https://github.com/David-dev-web/flutter-course) — JavaScript · 1 stars
-- [life-simulator](https://github.com/David-dev-web/life-simulator) — TypeScript · 1 stars
-- [Liquid-Glass-Webpage](https://github.com/David-dev-web/Liquid-Glass-Webpage) — CSS · 1 stars
-
-## Contribution activity
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web stats visual" />
-</p>
-
-<p><code>394 contributions</code> · <code>0 day streak</code></p>
-
-## Find me in the community
+## Make something memorable
 
 <p align="center">
   <img src="https://www.gitskins.com/api/section/social?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web social visual" />
@@ -51,4 +42,4 @@
 
 <a href="https://github.com/david-dev-web">GitHub</a> · <a href="https://david-dev-web.github.io/David-dev-web/">Website</a>
 
-<p align="center"><sub>David · Open-source profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+<p align="center"><sub>David · Creative portfolio generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
