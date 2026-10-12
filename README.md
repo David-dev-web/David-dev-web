@@ -1,45 +1,55 @@
-## Selected work
-
 <div align="center">
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web hero visual" />
-</p>
+# David.
 
-<h1>David</h1>
-<p><b>Freelance developer or consultant</b></p>
+**Python · Linux · Hardware · Creative Tech**
+
+Ich probiere Dinge aus, baue kleine Projekte und lerne dabei, wie Software und Systeme wirklich funktionieren.
+
+[Website](https://david-dev-web.github.io/David-dev-web/) · [GitHub](https://github.com/David-dev-web) · [SoundCloud](https://soundcloud.com/davidklimke3)
 
 </div>
 
-## The idea behind the work
+---
 
-> Building useful things and learning in public.
+## Was mich gerade beschäftigt
 
-- 📍 Based in **Germany**
-- 🌐 [Website](https://david-dev-web.github.io/David-dev-web/)
-- 👥 **107** followers · **134** following
+- 🐧 **Linux auf echter Hardware:** Linux Mint auf einer externen SSD, dazu Terminal, Shell und Open-Source-Tools.
+- 🐍 **Python & Automatisierung:** kleine Tools bauen, Dinge verstehen und wiederkehrende Aufgaben vereinfachen.
+- 🏠 **Homelab mit Raspberry Pi:** ein Raspberry Pi 3B+ mit eigenen Diensten, SMB-Dateifreigaben und Tailscale.
+- 🖥️ **PC-Hardware & Systeme:** Windows und Linux vergleichen, Hardware testen und herausfinden, was sich aus vorhandener Technik herausholen lässt.
+- 🤖 **Lokale KI:** mit Ollama und lokalen Modellen experimentieren und nachvollziehen, wie CPU, GPU und Speicher zusammenspielen.
+- 🎛️ **Musik & Sounddesign:** FL Studio, MIDI und atmosphärische Electronica – inspiriert von Künstlern wie Christian Löffler.
 
-*Small, useful work over vague claims.*
+## Projekte & Experimente
 
-## Case studies
+| Projekt / Thema | Worum es geht |
+| --- | --- |
+| [David-dev-web](https://github.com/David-dev-web/David-dev-web) | Meine persönliche Website und ein laufender Überblick über meine Interessen. |
+| [DavidOS-Dokumentation](https://github.com/David-dev-web/davidOS-docs) | Dokumentation zu meinem früheren Linux-/Desktop-Projekt. |
+| Raspberry Pi Homelab | Eigene Linux-Dienste, Dateifreigaben und ein kleines Dashboard. |
+| Lokale KI mit Ollama | Experimente mit lokalen Sprachmodellen und Hardware-Auslastung. |
+| Musikexperimente | Eigene Skizzen und Sounddesign in FL Studio. |
 
-<table>
-<tr><td width="32%"><b><a href="https://github.com/David-dev-web/davidOS-docs">davidOS-docs</a></b></td><td>Documentation for DavidOS<br/><sub>SCSS · 0 stars</sub></td></tr>
-<tr><td width="32%"><b><a href="https://github.com/David-dev-web/David-dev-web">David-dev-web</a></b></td><td>My Bio<br/><sub>open source · 0 stars</sub></td></tr>
-<tr><td width="32%"><b><a href="https://github.com/David-dev-web/klima">klima</a></b></td><td>Minimalist Weather App built with Flutter &amp; AI<br/><sub>Dart · 2 stars</sub></td></tr>
-<tr><td width="32%"><b><a href="https://github.com/David-dev-web/flutter-course">flutter-course</a></b></td><td>A selected project from this GitHub profile.<br/><sub>JavaScript · 1 stars</sub></td></tr>
-</table>
+*Die Liste zeigt Themen, an denen ich arbeite oder mit denen ich experimentiere – nicht jedes davon ist ein fertiges oder aktiv gepflegtes Projekt.*
 
-## Creative toolkit
+## Mein Werkzeugkasten
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) `CMake` `SCSS`
+**Regelmäßig:** Python, Linux, Bash, Git, GitHub, Windows, PC-Hardware  
+**Web:** HTML, CSS, JavaScript  
+**Kreativ:** FL Studio, MIDI, Audio-Experimente  
+**Zum Ausprobieren:** Docker, Ollama, Virtualisierung und Self-Hosting
 
-## Make something memorable
+## Mein Ansatz
+
+> Lieber selbst ausprobieren, verstehen, was dahintersteckt, und Schritt für Schritt besser werden.
+
+Ich bin kein fertiges Produkt – und meine Projekte müssen es auch nicht sein. Mich reizt es, Technik praktisch zu erkunden, Probleme zu lösen und die Ergebnisse mit der Zeit zu verbessern.
+
+---
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=david-dev-web&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F182375108%3Fu%3Dff927637d3568d3cc728ba379bf7af42d9da2335%26v%3D4" alt="david-dev-web social visual" />
+  <a href="https://david-dev-web.github.io/David-dev-web/">Website</a> ·
+  <a href="https://github.com/David-dev-web">GitHub</a> ·
+  <a href="https://soundcloud.com/davidklimke3">SoundCloud</a>
 </p>
-
-<a href="https://github.com/david-dev-web">GitHub</a> · <a href="https://david-dev-web.github.io/David-dev-web/">Website</a>
-
-<p align="center"><sub>David · Creative portfolio generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
