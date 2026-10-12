@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David | Developer & Creator</title>
+    <title>David | Linux, Python & Homelab</title>
+    <meta name="description" content="Ich tüftle mit Linux, Python, Raspberry Pi, lokaler KI und Musikproduktion. Hier sammle ich Projekte und Experimente.">
+    <meta name="theme-color" content="#050505">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +35,33 @@
     </header>
 
     <main class="container">
+
+        <section class="about-section" id="about">
+            <h3 class="section-title" data-i18n="about_title">Was mich gerade beschäftigt</h3>
+            <p class="about-intro" data-i18n="about_intro">Ich lerne am liebsten, indem ich Dinge selbst aufsetze, kaputtspiele und wieder zum Laufen bringe.</p>
+            <div class="focus-grid">
+                <article class="focus-card">
+                    <div class="focus-icon">🐧</div>
+                    <h4 data-i18n="focus_linux_title">Linux & Open Source</h4>
+                    <p data-i18n="focus_linux_desc">Linux Mint auf einer externen SSD, Shell, Tools und der Alltag zwischen Linux und Windows.</p>
+                </article>
+                <article class="focus-card">
+                    <div class="focus-icon">🏠</div>
+                    <h4 data-i18n="focus_pi_title">Raspberry-Pi-Homelab</h4>
+                    <p data-i18n="focus_pi_desc">Mein Raspberry Pi 3B+ mit SMB-Dateifreigaben, Tailscale und kleinen selbstgebauten Diensten.</p>
+                </article>
+                <article class="focus-card">
+                    <div class="focus-icon">🤖</div>
+                    <h4 data-i18n="focus_ai_title">Python & lokale KI</h4>
+                    <p data-i18n="focus_ai_desc">Python-Projekte, Systemexperimente und lokale Sprachmodelle auf eigener Hardware ausprobieren.</p>
+                </article>
+                <article class="focus-card">
+                    <div class="focus-icon">🎛️</div>
+                    <h4 data-i18n="focus_music_title">Musik & Sounddesign</h4>
+                    <p data-i18n="focus_music_desc">Mit FL Studio, meinem FLkey Mini und atmosphärischer Electronica eigene Ideen entwickeln.</p>
+                </article>
+            </div>
+        </section>
 
         <section class="timeline-section" id="meine-reise">
             <h3 class="section-title" data-i18n="timeline_title">Meine Reise</h3>
@@ -76,7 +105,7 @@
         <section class="projects-section">
             <h3 class="section-title" data-i18n="projects_title">Ausgewählte Projekte</h3>
             <div class="project-grid">
-                <a href="https://david-dev-web.github.io/davidOS-docs/" target="_blank" class="project-card">
+                <a href="https://david-dev-web.github.io/davidOS-docs/" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-image-wrapper">
                         <img src="https://github.com/user-attachments/assets/fe091b80-b23a-48cf-bbc5-1905762bc6ab" alt="DavidOS Screenshot">
                     </div>
@@ -86,7 +115,7 @@
                         <p data-i18n="project_1_desc">Ein Ubuntu-basiertes OS mit dem nostalgischen Look von Windows 95.</p>
                     </div>
                 </a>
-                <a href="https://david-dev-web.github.io/DavidTube-Client/" target="_blank" class="project-card">
+                <a href="https://david-dev-web.github.io/DavidTube-Client/" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-image-wrapper">
                         <img src="https://raw.githubusercontent.com/David-dev-web/DavidTube-Client/main/docs/img/screenshot-gaming.png" alt="DavidTube Webseite Screenshot">
                     </div>
@@ -94,6 +123,14 @@
                         <span class="project-category" data-i18n="project_2_category">Web-Frontend</span>
                         <h4 data-i18n="project_2_title">DavidTube Landing Page</h4>
                         <p data-i18n="project_2_desc">Eine moderne Webseite für einen Desktop-YouTube-Client.</p>
+                    </div>
+                </a>
+                <a href="https://github.com/David-dev-web/klima" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <div class="project-image-wrapper project-placeholder"><span>🌦️</span></div>
+                    <div class="project-info">
+                        <span class="project-category" data-i18n="project_3_category">App-Projekt</span>
+                        <h4 data-i18n="project_3_title">Klima</h4>
+                        <p data-i18n="project_3_desc">Eine minimalistische Wetter-App als Experiment mit Flutter und App-Entwicklung.</p>
                     </div>
                 </a>
             </div>
@@ -139,8 +176,8 @@
         <section class="contact-section">
             <h3 class="section-title" data-i18n="contact_title">Let's Connect</h3>
             <div class="contact-buttons">
-                <a href="https://github.com/David-dev-web" target="_blank" class="contact-button github" data-i18n="contact_github">GitHub</a>
-                <a href="https://soundcloud.com/davidklimke3" target="_blank" class="contact-button soundcloud" data-i18n="contact_soundcloud">SoundCloud</a>
+                <a href="https://github.com/David-dev-web" target="_blank" rel="noopener noreferrer" class="contact-button github" data-i18n="contact_github">GitHub</a>
+                <a href="https://soundcloud.com/davidklimke3" target="_blank" rel="noopener noreferrer" class="contact-button soundcloud" data-i18n="contact_soundcloud">SoundCloud</a>
             </div>
         </section>
 
@@ -153,121 +190,121 @@
     <button id="scroll-to-top" class="scroll-to-top" data-i18n="scroll_to_top">↑</button>
 
     <script>
-        // Translation System
+        // Übersetzungen laden und Spracheinstellungen merken
         let translations = {};
         let currentLanguage = localStorage.getItem('language') || 'de';
+        let typewriterTimer;
 
         async function loadTranslations() {
             try {
                 const response = await fetch('translations.json');
+                if (!response.ok) throw new Error('Übersetzungen konnten nicht geladen werden');
                 translations = await response.json();
                 updateLanguage(currentLanguage);
+                startTypewriter();
             } catch (error) {
-                console.error('Failed to load translations:', error);
+                console.error(error);
+                document.getElementById('typewriter').textContent = 'Linux · Python · Homelab';
             }
         }
 
         function updateLanguage(lang) {
+            if (!translations[lang]) lang = 'de';
             currentLanguage = lang;
             localStorage.setItem('language', lang);
-            
-            // Update all elements with data-i18n attribute
+
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
-                if (translations[lang] && translations[lang][key]) {
-                    element.textContent = translations[lang][key];
-                }
+                if (translations[lang][key]) element.textContent = translations[lang][key];
             });
-            
-            // Update language button
-            const langBtn = document.getElementById('lang-btn-text');
-            if (langBtn) {
-                langBtn.textContent = translations[lang]['lang_toggle'];
-            }
-            
-            // Update html lang attribute
+
+            document.getElementById('lang-btn-text').textContent = translations[lang].lang_toggle;
             document.documentElement.lang = lang;
+
+            // Beim Sprachwechsel auch die Typewriter-Phrasen aktualisieren
+            if (window.typewriterState) {
+                window.typewriterState.phrases = [
+                    translations[lang].hero_subtitle_1,
+                    translations[lang].hero_subtitle_2,
+                    translations[lang].hero_subtitle_3,
+                    translations[lang].hero_subtitle_4
+                ];
+                window.typewriterState.index = 0;
+                window.typewriterState.char = 0;
+                window.typewriterState.deleting = false;
+            }
+        }
+
+        function startTypewriter() {
+            const element = document.getElementById('typewriter');
+            const phrases = [
+                translations[currentLanguage].hero_subtitle_1,
+                translations[currentLanguage].hero_subtitle_2,
+                translations[currentLanguage].hero_subtitle_3,
+                translations[currentLanguage].hero_subtitle_4
+            ];
+            const state = { phrases, index: 0, char: 0, deleting: false };
+            window.typewriterState = state;
+
+            function type() {
+                const phrase = state.phrases[state.index] || '';
+                element.textContent = phrase.substring(0, state.char);
+                let delay = state.deleting ? 42 : 85;
+
+                if (!state.deleting && state.char < phrase.length) {
+                    state.char++;
+                } else if (!state.deleting) {
+                    delay = 1700;
+                    state.deleting = true;
+                } else if (state.char > 0) {
+                    state.char--;
+                } else {
+                    state.deleting = false;
+                    state.index = (state.index + 1) % state.phrases.length;
+                }
+                typewriterTimer = window.setTimeout(type, delay);
+            }
+            window.clearTimeout(typewriterTimer);
+            type();
         }
 
         document.getElementById('language-toggle').addEventListener('click', () => {
-            const newLang = currentLanguage === 'de' ? 'en' : 'de';
-            updateLanguage(newLang);
+            updateLanguage(currentLanguage === 'de' ? 'en' : 'de');
         });
 
         document.addEventListener('DOMContentLoaded', () => {
             loadTranslations();
-            
-            // Custom Cursor
+
+            // Custom cursor nur auf Geräten mit Maus
             const cursorDot = document.querySelector('.cursor-dot');
             const cursorOutline = document.querySelector('.cursor-outline');
-            
-            window.addEventListener('mousemove', e => {
-                gsap.to(cursorDot, {duration: 0.1, x: e.clientX, y: e.clientY});
-                gsap.to(cursorOutline, {duration: 0.3, x: e.clientX, y: e.clientY});
-            });
-
-            // Typewriter Effect
-            const typewriterElement = document.getElementById('typewriter');
-            const phrases = [
-                translations['de']['hero_subtitle_1'],
-                translations['de']['hero_subtitle_2'],
-                translations['de']['hero_subtitle_3'],
-                translations['de']['hero_subtitle_4']
-            ];
-            let pIdx = 0, cIdx = 0, isDeleting = false;
-
-            function type() {
-                const current = phrases[pIdx];
-                typewriterElement.textContent = isDeleting ? current.substring(0, cIdx--) : current.substring(0, cIdx++);
-                
-                if (!isDeleting && cIdx === current.length + 1) {
-                    setTimeout(() => isDeleting = true, 2000);
-                } else if (isDeleting && cIdx === 0) {
-                    isDeleting = false;
-                    pIdx = (pIdx + 1) % phrases.length;
-                }
-                setTimeout(type, isDeleting ? 50 : 100);
-            }
-            
-            // Start typewriter after translations loaded
-            setTimeout(type, 100);
-
-            // GSAP Animations
-            gsap.registerPlugin(ScrollTrigger);
-            gsap.from(".timeline-item", {
-                scrollTrigger: { trigger: ".timeline", start: "top 80%" },
-                opacity: 0, x: -50, stagger: 0.2, duration: 0.8
-            });
-
-            // Scroll to Top Button
-            const btn = document.getElementById('scroll-to-top');
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 300) {
-                    btn.classList.add('visible');
-                } else {
-                    btn.classList.remove('visible');
-                }
-            });
-            
-            btn.addEventListener('click', () => {
-                gsap.to(window, {
-                    duration: 0.8,
-                    scrollTo: 0,
-                    ease: 'power3.inOut'
+            if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && window.gsap) {
+                window.addEventListener('mousemove', event => {
+                    gsap.to(cursorDot, { duration: 0.1, x: event.clientX, y: event.clientY });
+                    gsap.to(cursorOutline, { duration: 0.3, x: event.clientX, y: event.clientY });
                 });
+            }
+
+            // Dezente Timeline-Animation, mit Fallback ohne GSAP
+            if (window.gsap && window.ScrollTrigger) {
+                gsap.registerPlugin(ScrollTrigger);
+                gsap.from('.timeline-item', {
+                    scrollTrigger: { trigger: '.timeline', start: 'top 80%' },
+                    opacity: 0, x: -30, stagger: 0.15, duration: 0.7
+                });
+            }
+
+            const btn = document.getElementById('scroll-to-top');
+            window.addEventListener('scroll', () => btn.classList.toggle('visible', window.scrollY > 300));
+            btn.addEventListener('click', () => {
+                if (window.gsap && window.ScrollToPlugin) gsap.to(window, { duration: 0.7, scrollTo: 0, ease: 'power3.inOut' });
+                else window.scrollTo({ top: 0, behavior: 'smooth' });
             });
 
-            // GitHub Stats Image Error Handling
-            const statImages = document.querySelectorAll('.stat-card img');
-            statImages.forEach(img => {
+            document.querySelectorAll('.stat-card img').forEach(img => {
                 img.addEventListener('error', () => {
                     const card = img.closest('.stat-card');
-                    card.style.background = 'rgba(255, 0, 0, 0.05)';
-                    card.style.minHeight = '120px';
-                    card.style.display = 'flex';
-                    card.style.alignItems = 'center';
-                    card.style.justifyContent = 'center';
-                    card.innerHTML = '<div style="text-align: center; color: var(--text-secondary); font-family: Space Mono, monospace; font-size: 0.9rem;"><div style="font-size: 2rem; margin-bottom: 10px;">📊</div>GitHub Stats laden...</div>';
+                    card.innerHTML = '<p class="stats-fallback">📊 GitHub-Statistiken sind gerade nicht verfügbar.</p>';
                 });
             });
         });
