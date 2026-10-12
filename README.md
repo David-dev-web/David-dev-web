@@ -33,8 +33,5 @@ Nicht alles hier ist ein aktives oder fertiggestelltes Projekt – manches ist e
 - **Entwicklung:** Git, GitHub, VS Codium
 - **Weitere Interessen:** Ollama / lokale KI, FL Studio und Sounddesign
 
-## Meine Website
-
-Die Website liegt im Ordner `docs/` und wird über GitHub Pages veröffentlicht. Die Texte für Deutsch und Englisch stehen in `docs/translations.json`; Layout und Design befinden sich in `docs/style.css`.
 
 Ich bin kein fertiger Experte – ich lerne, probiere aus und dokumentiere meinen Weg. Genau darum geht's. 🚀
