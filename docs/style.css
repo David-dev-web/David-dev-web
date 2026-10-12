@@ -616,3 +616,44 @@ footer p {
         height: 15px;
     }
 }
+
+/* Current interests / about cards */
+.about-intro {
+    max-width: 720px;
+    margin: -25px 0 35px;
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+}
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+.focus-card {
+    min-height: 190px;
+    padding: 26px;
+    background: linear-gradient(145deg, rgba(255,255,255,0.025), rgba(255,255,255,0.008));
+    border: 1px solid var(--border-color);
+    transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+.focus-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-color);
+    background: rgba(255, 0, 0, 0.035);
+}
+.focus-icon { font-size: 1.7rem; margin-bottom: 14px; }
+.focus-card h4 { font-family: var(--font-mono); font-size: 1rem; margin-bottom: 9px; }
+.focus-card p { color: var(--text-secondary); font-size: 0.9rem; }
+.project-placeholder {
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at center, rgba(255,0,0,0.12), rgba(255,0,0,0.015));
+}
+.project-placeholder span { font-size: 3.5rem; }
+.stats-fallback { color: var(--text-secondary); font-family: var(--font-mono); font-size: 0.85rem; text-align: center; padding: 24px; }
+
+@media (max-width: 768px) {
+    .focus-grid { grid-template-columns: 1fr; }
+    .focus-card { min-height: auto; padding: 22px; }
+    .about-intro { margin-top: -15px; }
+}
