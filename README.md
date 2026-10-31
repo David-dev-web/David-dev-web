@@ -1,6 +1,4 @@
-<video src="https://github.com" autoplay loop muted playsinline style="width: 100%; border-radius: 10px; margin-bottom: 20px;"></video>
->
-
+<video src="https://github.com/user-attachments/assets/3146fa28-9980-40b9-9b43-e4c5fc54d054" autoplay loop muted playsinline style="width: 100%; border-radius: 10px; margin-bottom: 20px;"></video>
 
 # Hey, ich bin David 👋
 
