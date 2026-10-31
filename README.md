@@ -1,3 +1,6 @@
+<video src="https://github.com" autoplay loop muted playsinline style="width: 100%; border-radius: 10px; margin-bottom: 20px;"></video>
+
+
 # Hey, ich bin David 👋
 
 Ich bin ein Schüler aus Deutschland und tüftle gerne an Software, Linux und Hardware. Am liebsten lerne ich praktisch: ausprobieren, Fehler finden, verstehen, warum etwas nicht funktioniert – und es dann selbst zum Laufen bringen.
